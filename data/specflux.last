@@ -1,0 +1,15 @@
+taskname           = "specflux"
+imagename          =  "a2597_CO21_pbcorr_natural_40kms.fits"
+region             =  ""
+box                =  "110,80,166,204"
+chans              =  ""
+stokes             =  ""
+mask               =  "a2597_CO21_pbcorr_natural_40kms.fits>=0.000539"
+stretch            =  False
+function           =  "flux density"
+unit               =  "km/s"
+major              =  ""
+minor              =  ""
+logfile            =  "40kms.log"
+overwrite          =  True
+#specflux(imagename="a2597_CO21_pbcorr_natural_40kms.fits",region="",box="110,80,166,204",chans="",stokes="",mask="a2597_CO21_pbcorr_natural_40kms.fits>=0.000539",stretch=False,function="flux density",unit="km/s",major="",minor="",logfile="40kms.log",overwrite=True)

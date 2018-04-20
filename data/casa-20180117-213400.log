@@ -1,0 +1,318 @@
+2018-01-17 21:34:03	INFO	::casa	
+2018-01-17 21:34:03	INFO	::casa	CASA Version 5.1.1-5  
+2018-01-17 21:34:17	INFO	specflux::::	
+2018-01-17 21:34:17	INFO	specflux::::+	##########################################
+2018-01-17 21:34:17	INFO	specflux::::+	##### Begin Task: specflux           #####
+2018-01-17 21:34:17	INFO	specflux::::	specflux(imagename="a2597_CO21_pbcorr_natural_10kms.fits",region="",box="110,80,166,204",chans="",stokes="",
+2018-01-17 21:34:17	INFO	specflux::::+	        mask="a2597_CO21_pbcorr_natural_10kms.fits>=0.00087",stretch=False,function="flux density",unit="km/s",major="",
+2018-01-17 21:34:17	INFO	specflux::::+	        minor="",logfile="10kms.log",overwrite=True)
+2018-01-17 21:34:19	INFO	specflux::CasacRegionManager::fromBCS	Using specified box(es) 110,80,166,204
+2018-01-17 21:34:20	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:20	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 100, 0]  (23:25:20.108, -12.07.38.196, 2.13402e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.12692e+11Hz, I)
+2018-01-17 21:34:22	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:22	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 100, 0]  (23:25:20.108, -12.07.38.196, 2.13402e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.12692e+11Hz, I)
+2018-01-17 21:34:23	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:23	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 100, 0]  (23:25:20.108, -12.07.38.196, 2.13402e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.12692e+11Hz, I)
+2018-01-17 21:34:25	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:25	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 100, 0]  (23:25:20.108, -12.07.38.196, 2.13402e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.12692e+11Hz, I)
+2018-01-17 21:34:26	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:26	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 100, 0]  (23:25:20.108, -12.07.38.196, 2.13402e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.12692e+11Hz, I)
+2018-01-17 21:34:27	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:27	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 100, 0]  (23:25:20.108, -12.07.38.196, 2.13402e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.12692e+11Hz, I)
+2018-01-17 21:34:28	INFO	specflux::::	# a2597_CO21_pbcorr_natural_10kms.fits, box=110,80,166,204, chans=, stokes=
+2018-01-17 21:34:28	INFO	specflux::::+	# beam size: 0.817376687767 arcsec2, 36.3278527896 pixels
+2018-01-17 21:34:28	INFO	specflux::::+	# Total flux: 5.18311796554 Jy.km/s
+2018-01-17 21:34:28	INFO	specflux::::+	# Channel number_of_unmasked_pixels frequency_(MHz) Velocity_(km/s) Flux_density_(Jy)
+2018-01-17 21:34:28	INFO	specflux::::+	        0                        61   213402.173899     -499.583046      1.696438e-03
+2018-01-17 21:34:28	INFO	specflux::::+	        1                       107   213395.067421     -489.599557      3.167394e-03
+2018-01-17 21:34:28	INFO	specflux::::+	        2                        72   213387.960943     -479.615735      1.956647e-03
+2018-01-17 21:34:28	INFO	specflux::::+	        3                        63   213380.854465     -469.631579      1.741851e-03
+2018-01-17 21:34:28	INFO	specflux::::+	        4                        64   213373.747987     -459.647090      1.744127e-03
+2018-01-17 21:34:28	INFO	specflux::::+	        5                        58   213366.641509     -449.662267      1.576349e-03
+2018-01-17 21:34:28	INFO	specflux::::+	        6                        79   213359.535031     -439.677111      2.408301e-03
+2018-01-17 21:34:28	INFO	specflux::::+	        7                        48   213352.428553     -429.691621      1.379495e-03
+2018-01-17 21:34:28	INFO	specflux::::+	        8                        47   213345.322075     -419.705797      1.289077e-03
+2018-01-17 21:34:28	INFO	specflux::::+	        9                        45   213338.215597     -409.719640      1.197412e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       10                       105   213331.109119     -399.733149      3.012667e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       11                        29   213324.002641     -389.746325      8.672791e-04
+2018-01-17 21:34:28	INFO	specflux::::+	       12                        63   213316.896163     -379.759167      1.707134e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       13                        36   213309.789685     -369.771676      9.447219e-04
+2018-01-17 21:34:28	INFO	specflux::::+	       14                        77   213302.683207     -359.783851      2.235261e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       15                       129   213295.576729     -349.795692      3.813798e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       16                        42   213288.470251     -339.807200      1.154996e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       17                        37   213281.363773     -329.818375      9.921105e-04
+2018-01-17 21:34:28	INFO	specflux::::+	       18                        25   213274.257295     -319.829216      6.582767e-04
+2018-01-17 21:34:28	INFO	specflux::::+	       19                        78   213267.150817     -309.839723      2.113531e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       20                        65   213260.044339     -299.849897      1.743642e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       21                        93   213252.937862     -289.859737      2.523088e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       22                        83   213245.831384     -279.869243      2.398392e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       23                        35   213238.724906     -269.878416      8.869892e-04
+2018-01-17 21:34:28	INFO	specflux::::+	       24                        35   213231.618428     -259.887256      8.811157e-04
+2018-01-17 21:34:28	INFO	specflux::::+	       25                        76   213224.511950     -249.895762      2.049068e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       26                        85   213217.405472     -239.903934      2.379716e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       27                        60   213210.298994     -229.911773      1.616630e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       28                        72   213203.192516     -219.919278      2.010446e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       29                       101   213196.086038     -209.926449      2.843862e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       30                        94   213188.979560     -199.933288      2.570322e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       31                        61   213181.873082     -189.939792      1.777308e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       32                       157   213174.766604     -179.945963      4.516274e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       33                        95   213167.660126     -169.951800      2.750417e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       34                       137   213160.553648     -159.957304      4.121390e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       35                        91   213153.447170     -149.962474      2.669892e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       36                       123   213146.340692     -139.967311      3.567878e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       37                       163   213139.234214     -129.971814      4.749382e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       38                       166   213132.127736     -119.975984      5.439041e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       39                       190   213125.021258     -109.979820      6.391576e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       40                       175   213117.914780      -99.983322      6.507909e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       41                       231   213110.808302      -89.986491      8.653165e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       42                       230   213103.701824      -79.989326      1.052969e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       43                       281   213096.595346      -69.991828      1.342327e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       44                       286   213089.488868      -59.993996      1.520501e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       45                       305   213082.382390      -49.995831      1.651996e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       46                       260   213075.275912      -39.997332      1.501095e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       47                       272   213068.169434      -29.998499      1.651810e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       48                       338   213061.062956      -19.999333      1.843553e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       49                       303   213053.956478       -9.999834      1.587294e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       50                       333   213046.850000       -0.000000      1.661094e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       51                       346   213039.743522       10.000166      1.360265e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       52                       250   213032.637044       20.000667      1.086168e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       53                       302   213025.530566       30.001501      1.112802e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       54                       279   213018.424088       40.002668      1.078865e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       55                       150   213011.317610       50.004169      5.377439e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       56                       275   213004.211132       60.006004      1.109297e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       57                       294   212997.104654       70.008172      1.236822e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       58                       287   212989.998176       80.010674      1.233868e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       59                       353   212982.891698       90.013509      1.383544e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       60                       333   212975.785220      100.016678      1.283322e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       61                       347   212968.678742      110.020180      1.142149e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       62                       348   212961.572265      120.024016      1.137507e-02
+2018-01-17 21:34:28	INFO	specflux::::+	       63                       192   212954.465787      130.028186      6.221364e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       64                       185   212947.359309      140.032689      6.415023e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       65                       281   212940.252831      150.037526      9.970869e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       66                       176   212933.146353      160.042696      6.567537e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       67                       244   212926.039875      170.048200      9.211213e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       68                       219   212918.933397      180.054037      7.800377e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       69                       177   212911.826919      190.060208      6.761798e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       70                       114   212904.720441      200.066712      4.460127e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       71                       155   212897.613963      210.073551      5.127469e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       72                        68   212890.507485      220.080722      2.471831e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       73                       116   212883.401007      230.088227      3.678963e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       74                       120   212876.294529      240.096066      4.407031e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       75                        93   212869.188051      250.104238      2.851156e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       76                       100   212862.081573      260.112744      3.204034e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       77                       107   212854.975095      270.121584      3.014784e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       78                       127   212847.868617      280.130757      3.659795e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       79                        80   212840.762139      290.140263      2.435131e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       80                       105   212833.655661      300.150103      3.243570e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       81                       102   212826.549183      310.160277      2.939897e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       82                        90   212819.442705      320.170784      2.475973e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       83                        65   212812.336227      330.181625      1.805151e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       84                        28   212805.229749      340.192800      7.157800e-04
+2018-01-17 21:34:28	INFO	specflux::::+	       85                        84   212798.123271      350.204308      2.539690e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       86                       117   212791.016793      360.216149      3.232248e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       87                        58   212783.910315      370.228324      1.624149e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       88                        89   212776.803837      380.240833      2.405248e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       89                        50   212769.697359      390.253675      1.304290e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       90                        82   212762.590881      400.266851      2.404918e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       91                        92   212755.484403      410.280360      2.619353e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       92                        67   212748.377925      420.294203      1.916527e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       93                        88   212741.271447      430.308379      2.354090e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       94                        89   212734.164969      440.322889      2.446199e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       95                        56   212727.058491      450.337733      1.618860e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       96                        63   212719.952013      460.352910      1.758544e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       97                        64   212712.845535      470.368421      1.688805e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       98                        61   212705.739057      480.384265      1.694975e-03
+2018-01-17 21:34:28	INFO	specflux::::+	       99                        64   212698.632579      490.400443      1.779490e-03
+2018-01-17 21:34:28	INFO	specflux::::+	      100                       125   212691.526101      500.416954      3.580539e-03
+2018-01-17 21:34:28	INFO	specflux::::	##### End Task: specflux             #####
+2018-01-17 21:34:28	INFO	specflux::::+	##########################################
+2018-01-17 21:34:28	INFO	specflux::::	
+2018-01-17 21:34:28	INFO	specflux::::+	##########################################
+2018-01-17 21:34:28	INFO	specflux::::+	##### Begin Task: specflux           #####
+2018-01-17 21:34:28	INFO	specflux::::	specflux(imagename="a2597_CO21_pbcorr_natural_40kms.fits",region="",box="110,80,166,204",chans="",stokes="",
+2018-01-17 21:34:28	INFO	specflux::::+	        mask="a2597_CO21_pbcorr_natural_40kms.fits>=0.000539",stretch=False,function="flux density",unit="km/s",major="",
+2018-01-17 21:34:28	INFO	specflux::::+	        minor="",logfile="40kms.log",overwrite=True)
+2018-01-17 21:34:30	INFO	specflux::CasacRegionManager::fromBCS	Using specified box(es) 110,80,166,204
+2018-01-17 21:34:32	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:32	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:34:35	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:35	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:34:38	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:38	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:34:40	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:40	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:34:43	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:43	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:34:45	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:45	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:34:45	INFO	specflux::::	# a2597_CO21_pbcorr_natural_40kms.fits, box=110,80,166,204, chans=, stokes=
+2018-01-17 21:34:45	INFO	specflux::::+	# beam size: 0.81766957212 arcsec2, 36.340869872 pixels
+2018-01-17 21:34:45	INFO	specflux::::+	# Total flux: 7.88426294764 Jy.km/s
+2018-01-17 21:34:45	INFO	specflux::::+	# Channel number_of_unmasked_pixels frequency_(MHz) Velocity_(km/s) Flux_density_(Jy)
+2018-01-17 21:34:45	INFO	specflux::::+	        0                        11   213473.238679     -599.399586      1.774671e-04
+2018-01-17 21:34:45	INFO	specflux::::+	        1                        24   213444.812767     -559.476973      4.488268e-04
+2018-01-17 21:34:45	INFO	specflux::::+	        2                         4   213416.386855     -519.549023      6.460969e-05
+2018-01-17 21:34:45	INFO	specflux::::+	        3                        32   213387.960943     -479.615735      5.395264e-04
+2018-01-17 21:34:45	INFO	specflux::::+	        4                        50   213359.535031     -439.677111      8.694008e-04
+2018-01-17 21:34:45	INFO	specflux::::+	        5                        49   213331.109119     -399.733150      8.124487e-04
+2018-01-17 21:34:45	INFO	specflux::::+	        6                        34   213302.683208     -359.783851      5.480714e-04
+2018-01-17 21:34:45	INFO	specflux::::+	        7                        26   213274.257296     -319.829216      4.084775e-04
+2018-01-17 21:34:45	INFO	specflux::::+	        8                        49   213245.831384     -279.869244      8.477767e-04
+2018-01-17 21:34:45	INFO	specflux::::+	        9                        64   213217.405472     -239.903934      1.026423e-03
+2018-01-17 21:34:45	INFO	specflux::::+	       10                       148   213188.979560     -199.933288      2.565641e-03
+2018-01-17 21:34:45	INFO	specflux::::+	       11                       174   213160.553648     -159.957304      4.049077e-03
+2018-01-17 21:34:45	INFO	specflux::::+	       12                       321   213132.127736     -119.975984      9.714045e-03
+2018-01-17 21:34:45	INFO	specflux::::+	       13                       436   213103.701824      -79.989327      1.751313e-02
+2018-01-17 21:34:45	INFO	specflux::::+	       14                       569   213075.275912      -39.997332      2.561773e-02
+2018-01-17 21:34:45	INFO	specflux::::+	       15                       629   213046.850000       -0.000001      2.538020e-02
+2018-01-17 21:34:45	INFO	specflux::::+	       16                       717   213018.424089       40.002668      2.158082e-02
+2018-01-17 21:34:45	INFO	specflux::::+	       17                       827   212989.998177       80.010673      2.685702e-02
+2018-01-17 21:34:45	INFO	specflux::::+	       18                       869   212961.572265      120.024016      2.254493e-02
+2018-01-17 21:34:45	INFO	specflux::::+	       19                       356   212933.146353      160.042696      1.060540e-02
+2018-01-17 21:34:45	INFO	specflux::::+	       20                       249   212904.720441      200.066712      7.740724e-03
+2018-01-17 21:34:45	INFO	specflux::::+	       21                       218   212876.294529      240.096066      5.331430e-03
+2018-01-17 21:34:45	INFO	specflux::::+	       22                       134   212847.868617      280.130756      2.965926e-03
+2018-01-17 21:34:45	INFO	specflux::::+	       23                       101   212819.442705      320.170784      1.758352e-03
+2018-01-17 21:34:45	INFO	specflux::::+	       24                        90   212791.016793      360.216149      1.559031e-03
+2018-01-17 21:34:45	INFO	specflux::::+	       25                        83   212762.590881      400.266850      1.496664e-03
+2018-01-17 21:34:45	INFO	specflux::::+	       26                        60   212734.164970      440.322889      1.000325e-03
+2018-01-17 21:34:45	INFO	specflux::::+	       27                        56   212705.739058      480.384265      9.577564e-04
+2018-01-17 21:34:45	INFO	specflux::::+	       28                        59   212677.313146      520.450977      9.903228e-04
+2018-01-17 21:34:45	INFO	specflux::::+	       29                        49   212648.887234      560.523027      8.190868e-04
+2018-01-17 21:34:45	INFO	specflux::::+	       30                        17   212620.461322      600.600414      2.764211e-04
+2018-01-17 21:34:45	INFO	specflux::::	##### End Task: specflux             #####
+2018-01-17 21:34:45	INFO	specflux::::+	##########################################
+2018-01-17 21:34:45	INFO	specflux::::	
+2018-01-17 21:34:45	INFO	specflux::::+	##########################################
+2018-01-17 21:34:45	INFO	specflux::::+	##### Begin Task: specflux           #####
+2018-01-17 21:34:45	INFO	specflux::::	specflux(imagename="10kms_natural_3.0sigma_flux_sanity_check_10kmsYESTAPER_FIXEDTHRESHOLD.fits",region="",box="110,80,166,204",chans="",stokes="",
+2018-01-17 21:34:45	INFO	specflux::::+	        mask="a2597_CO21_pbcorr_natural_10kms.fits>=0.00087",stretch=False,function="flux density",unit="km/s",major="",
+2018-01-17 21:34:45	INFO	specflux::::+	        minor="",logfile="10kms.log",overwrite=True)
+2018-01-17 21:34:48	INFO	specflux::CasacRegionManager::fromBCS	Using specified box(es) 110,80,166,204
+2018-01-17 21:34:49	SEVERE	specflux::image::getprofile (file /Volumes/EXT/bamboohome/xml-data/build-dir/CASA-R511P-POSIERRA/casa/gcwrap/tools/images/image_cmpt.cc, line 2288)	Exception Reported: The input image shape ([300, 300, 121, 1]) and mask shape ([300, 300, 101, 1]) are different, and it was specified that the mask should not be extended, so the mask cannot be applied to the (sub)image. Specifying that the mask should be extended may resolve the issue at File: /Volumes/EXT/bamboohome/xml-data/build-dir/CASA-R511P-POSIERRA/casa/darwin/include/casacode/imageanalysis/ImageAnalysis/SubImageFactory.tcc, line: 306
+2018-01-17 21:34:49	SEVERE	specflux::::	*** Error ***The input image shape ([300, 300, 121, 1]) and mask shape ([300, 300, 101, 1]) are different, and it was specified that the mask should not be extended, so the mask cannot be applied to the (sub)image. Specifying that the mask should be extended may resolve the issue at File: /Volumes/EXT/bamboohome/xml-data/build-dir/CASA-R511P-POSIERRA/casa/darwin/include/casacode/imageanalysis/ImageAnalysis/SubImageFactory.tcc, line: 306
+2018-01-17 21:34:49	SEVERE	specflux::::	An error occurred running task specflux.
+2018-01-17 21:34:49	INFO	specflux::::	
+2018-01-17 21:34:49	INFO	specflux::::+	##########################################
+2018-01-17 21:34:49	INFO	specflux::::+	##### Begin Task: specflux           #####
+2018-01-17 21:34:49	INFO	specflux::::	specflux(imagename="a2597_CO21_pbcorr_natural_40kms.fits",region="",box="110,80,166,204",chans="",stokes="",
+2018-01-17 21:34:49	INFO	specflux::::+	        mask="a2597_CO21_pbcorr_natural_40kms.fits>=0.000539",stretch=False,function="flux density",unit="km/s",major="",
+2018-01-17 21:34:49	INFO	specflux::::+	        minor="",logfile="40kms.log",overwrite=True)
+2018-01-17 21:34:52	INFO	specflux::CasacRegionManager::fromBCS	Using specified box(es) 110,80,166,204
+2018-01-17 21:34:54	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:54	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:34:57	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:57	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:34:59	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:34:59	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:35:01	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:35:01	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:35:04	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:35:04	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:35:06	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:35:06	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:35:06	INFO	specflux::::	# a2597_CO21_pbcorr_natural_40kms.fits, box=110,80,166,204, chans=, stokes=
+2018-01-17 21:35:06	INFO	specflux::::+	# beam size: 0.81766957212 arcsec2, 36.340869872 pixels
+2018-01-17 21:35:06	INFO	specflux::::+	# Total flux: 7.88426294764 Jy.km/s
+2018-01-17 21:35:06	INFO	specflux::::+	# Channel number_of_unmasked_pixels frequency_(MHz) Velocity_(km/s) Flux_density_(Jy)
+2018-01-17 21:35:06	INFO	specflux::::+	        0                        11   213473.238679     -599.399586      1.774671e-04
+2018-01-17 21:35:06	INFO	specflux::::+	        1                        24   213444.812767     -559.476973      4.488268e-04
+2018-01-17 21:35:06	INFO	specflux::::+	        2                         4   213416.386855     -519.549023      6.460969e-05
+2018-01-17 21:35:06	INFO	specflux::::+	        3                        32   213387.960943     -479.615735      5.395264e-04
+2018-01-17 21:35:06	INFO	specflux::::+	        4                        50   213359.535031     -439.677111      8.694008e-04
+2018-01-17 21:35:06	INFO	specflux::::+	        5                        49   213331.109119     -399.733150      8.124487e-04
+2018-01-17 21:35:06	INFO	specflux::::+	        6                        34   213302.683208     -359.783851      5.480714e-04
+2018-01-17 21:35:06	INFO	specflux::::+	        7                        26   213274.257296     -319.829216      4.084775e-04
+2018-01-17 21:35:06	INFO	specflux::::+	        8                        49   213245.831384     -279.869244      8.477767e-04
+2018-01-17 21:35:06	INFO	specflux::::+	        9                        64   213217.405472     -239.903934      1.026423e-03
+2018-01-17 21:35:06	INFO	specflux::::+	       10                       148   213188.979560     -199.933288      2.565641e-03
+2018-01-17 21:35:06	INFO	specflux::::+	       11                       174   213160.553648     -159.957304      4.049077e-03
+2018-01-17 21:35:06	INFO	specflux::::+	       12                       321   213132.127736     -119.975984      9.714045e-03
+2018-01-17 21:35:06	INFO	specflux::::+	       13                       436   213103.701824      -79.989327      1.751313e-02
+2018-01-17 21:35:06	INFO	specflux::::+	       14                       569   213075.275912      -39.997332      2.561773e-02
+2018-01-17 21:35:06	INFO	specflux::::+	       15                       629   213046.850000       -0.000001      2.538020e-02
+2018-01-17 21:35:06	INFO	specflux::::+	       16                       717   213018.424089       40.002668      2.158082e-02
+2018-01-17 21:35:06	INFO	specflux::::+	       17                       827   212989.998177       80.010673      2.685702e-02
+2018-01-17 21:35:06	INFO	specflux::::+	       18                       869   212961.572265      120.024016      2.254493e-02
+2018-01-17 21:35:06	INFO	specflux::::+	       19                       356   212933.146353      160.042696      1.060540e-02
+2018-01-17 21:35:06	INFO	specflux::::+	       20                       249   212904.720441      200.066712      7.740724e-03
+2018-01-17 21:35:06	INFO	specflux::::+	       21                       218   212876.294529      240.096066      5.331430e-03
+2018-01-17 21:35:06	INFO	specflux::::+	       22                       134   212847.868617      280.130756      2.965926e-03
+2018-01-17 21:35:06	INFO	specflux::::+	       23                       101   212819.442705      320.170784      1.758352e-03
+2018-01-17 21:35:06	INFO	specflux::::+	       24                        90   212791.016793      360.216149      1.559031e-03
+2018-01-17 21:35:06	INFO	specflux::::+	       25                        83   212762.590881      400.266850      1.496664e-03
+2018-01-17 21:35:06	INFO	specflux::::+	       26                        60   212734.164970      440.322889      1.000325e-03
+2018-01-17 21:35:06	INFO	specflux::::+	       27                        56   212705.739058      480.384265      9.577564e-04
+2018-01-17 21:35:06	INFO	specflux::::+	       28                        59   212677.313146      520.450977      9.903228e-04
+2018-01-17 21:35:06	INFO	specflux::::+	       29                        49   212648.887234      560.523027      8.190868e-04
+2018-01-17 21:35:06	INFO	specflux::::+	       30                        17   212620.461322      600.600414      2.764211e-04
+2018-01-17 21:35:06	INFO	specflux::::	##### End Task: specflux             #####
+2018-01-17 21:35:06	INFO	specflux::::+	##########################################
+2018-01-17 21:36:31	INFO	specflux::::	
+2018-01-17 21:36:31	INFO	specflux::::+	##########################################
+2018-01-17 21:36:31	INFO	specflux::::+	##### Begin Task: specflux           #####
+2018-01-17 21:36:31	INFO	specflux::::	specflux(imagename="10kms_natural_3.0sigma_flux_sanity_check_10kmsYESTAPER_FIXEDTHRESHOLD.fits",region="",box="110,80,166,204",chans="",stokes="",
+2018-01-17 21:36:31	INFO	specflux::::+	        mask="10kms_natural_3.0sigma_flux_sanity_check_10kmsYESTAPER_FIXEDTHRESHOLD.fits>=0.00087",stretch=False,function="flux density",unit="km/s",major="",
+2018-01-17 21:36:31	INFO	specflux::::+	        minor="",logfile="10kms.log",overwrite=True)
+2018-01-17 21:36:33	INFO	specflux::CasacRegionManager::fromBCS	Using specified box(es) 110,80,166,204
+2018-01-17 21:36:33	SEVERE	specflux::image::getprofile (file /Volumes/EXT/bamboohome/xml-data/build-dir/CASA-R511P-POSIERRA/casa/gcwrap/tools/images/image_cmpt.cc, line 2288)	Exception Reported: Input mask specification is incorrect: Image Expression: Parse error at or near 'kms_natural_3.0sigma_flux_sanity_check_10kmsYESTAPER_FIXEDTHRESHOLD.fits'
+2018-01-17 21:36:33	SEVERE	specflux::image::getprofile (file /Volumes/EXT/bamboohome/xml-data/build-dir/CASA-R511P-POSIERRA/casa/gcwrap/tools/images/image_cmpt.cc, line 2288)+	Scanned so far: 10kms_natural_3.0sigma_flux_sanity_check_10kmsYESTAPER_FIXEDTHRESHOLD.fits at File: /Volumes/EXT/bamboohome/xml-data/build-dir/CASA-R511P-POSIERRA/casa/darwin/include/casacode/imageanalysis/ImageAnalysis/SubImageFactory.tcc, line: 289
+2018-01-17 21:36:33	SEVERE	specflux::::	*** Error ***Input mask specification is incorrect: Image Expression: Parse error at or near 'kms_natural_3.0sigma_flux_sanity_check_10kmsYESTAPER_FIXEDTHRESHOLD.fits'
+2018-01-17 21:36:33	SEVERE	specflux::::+	Scanned so far: 10kms_natural_3.0sigma_flux_sanity_check_10kmsYESTAPER_FIXEDTHRESHOLD.fits at File: /Volumes/EXT/bamboohome/xml-data/build-dir/CASA-R511P-POSIERRA/casa/darwin/include/casacode/imageanalysis/ImageAnalysis/SubImageFactory.tcc, line: 289
+2018-01-17 21:36:33	SEVERE	specflux::::	An error occurred running task specflux.
+2018-01-17 21:37:41	INFO	specflux::::	
+2018-01-17 21:37:41	INFO	specflux::::+	##########################################
+2018-01-17 21:37:41	INFO	specflux::::+	##### Begin Task: specflux           #####
+2018-01-17 21:37:41	INFO	specflux::::	specflux(imagename="a2597_CO21_pbcorr_natural_40kms.fits",region="",box="110,80,166,204",chans="",stokes="",
+2018-01-17 21:37:41	INFO	specflux::::+	        mask="a2597_CO21_pbcorr_natural_40kms.fits>=0.000539",stretch=False,function="flux density",unit="km/s",major="",
+2018-01-17 21:37:41	INFO	specflux::::+	        minor="",logfile="40kms.log",overwrite=True)
+2018-01-17 21:37:43	INFO	specflux::CasacRegionManager::fromBCS	Using specified box(es) 110,80,166,204
+2018-01-17 21:37:46	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:37:46	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:37:48	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:37:48	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:37:51	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:37:51	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:37:53	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:37:53	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:37:56	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:37:56	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:37:58	INFO	specflux::ImageRegion::fromRecord	Selected bounding box : 
+2018-01-17 21:37:58	INFO	specflux::ImageRegion::fromRecord+	    [110, 80, 0, 0] to [166, 204, 30, 0]  (23:25:20.108, -12.07.38.196, 2.13473e+11Hz, I to 23:25:19.536, -12.07.19.596, 2.1262e+11Hz, I)
+2018-01-17 21:37:58	INFO	specflux::::	# a2597_CO21_pbcorr_natural_40kms.fits, box=110,80,166,204, chans=, stokes=
+2018-01-17 21:37:58	INFO	specflux::::+	# beam size: 0.81766957212 arcsec2, 36.340869872 pixels
+2018-01-17 21:37:58	INFO	specflux::::+	# Total flux: 7.88426294764 Jy.km/s
+2018-01-17 21:37:58	INFO	specflux::::+	# Channel number_of_unmasked_pixels frequency_(MHz) Velocity_(km/s) Flux_density_(Jy)
+2018-01-17 21:37:58	INFO	specflux::::+	        0                        11   213473.238679     -599.399586      1.774671e-04
+2018-01-17 21:37:58	INFO	specflux::::+	        1                        24   213444.812767     -559.476973      4.488268e-04
+2018-01-17 21:37:58	INFO	specflux::::+	        2                         4   213416.386855     -519.549023      6.460969e-05
+2018-01-17 21:37:58	INFO	specflux::::+	        3                        32   213387.960943     -479.615735      5.395264e-04
+2018-01-17 21:37:58	INFO	specflux::::+	        4                        50   213359.535031     -439.677111      8.694008e-04
+2018-01-17 21:37:58	INFO	specflux::::+	        5                        49   213331.109119     -399.733150      8.124487e-04
+2018-01-17 21:37:58	INFO	specflux::::+	        6                        34   213302.683208     -359.783851      5.480714e-04
+2018-01-17 21:37:58	INFO	specflux::::+	        7                        26   213274.257296     -319.829216      4.084775e-04
+2018-01-17 21:37:58	INFO	specflux::::+	        8                        49   213245.831384     -279.869244      8.477767e-04
+2018-01-17 21:37:58	INFO	specflux::::+	        9                        64   213217.405472     -239.903934      1.026423e-03
+2018-01-17 21:37:58	INFO	specflux::::+	       10                       148   213188.979560     -199.933288      2.565641e-03
+2018-01-17 21:37:58	INFO	specflux::::+	       11                       174   213160.553648     -159.957304      4.049077e-03
+2018-01-17 21:37:58	INFO	specflux::::+	       12                       321   213132.127736     -119.975984      9.714045e-03
+2018-01-17 21:37:58	INFO	specflux::::+	       13                       436   213103.701824      -79.989327      1.751313e-02
+2018-01-17 21:37:58	INFO	specflux::::+	       14                       569   213075.275912      -39.997332      2.561773e-02
+2018-01-17 21:37:58	INFO	specflux::::+	       15                       629   213046.850000       -0.000001      2.538020e-02
+2018-01-17 21:37:58	INFO	specflux::::+	       16                       717   213018.424089       40.002668      2.158082e-02
+2018-01-17 21:37:58	INFO	specflux::::+	       17                       827   212989.998177       80.010673      2.685702e-02
+2018-01-17 21:37:58	INFO	specflux::::+	       18                       869   212961.572265      120.024016      2.254493e-02
+2018-01-17 21:37:58	INFO	specflux::::+	       19                       356   212933.146353      160.042696      1.060540e-02
+2018-01-17 21:37:58	INFO	specflux::::+	       20                       249   212904.720441      200.066712      7.740724e-03
+2018-01-17 21:37:58	INFO	specflux::::+	       21                       218   212876.294529      240.096066      5.331430e-03
+2018-01-17 21:37:58	INFO	specflux::::+	       22                       134   212847.868617      280.130756      2.965926e-03
+2018-01-17 21:37:58	INFO	specflux::::+	       23                       101   212819.442705      320.170784      1.758352e-03
+2018-01-17 21:37:58	INFO	specflux::::+	       24                        90   212791.016793      360.216149      1.559031e-03
+2018-01-17 21:37:58	INFO	specflux::::+	       25                        83   212762.590881      400.266850      1.496664e-03
+2018-01-17 21:37:58	INFO	specflux::::+	       26                        60   212734.164970      440.322889      1.000325e-03
+2018-01-17 21:37:58	INFO	specflux::::+	       27                        56   212705.739058      480.384265      9.577564e-04
+2018-01-17 21:37:58	INFO	specflux::::+	       28                        59   212677.313146      520.450977      9.903228e-04
+2018-01-17 21:37:58	INFO	specflux::::+	       29                        49   212648.887234      560.523027      8.190868e-04
+2018-01-17 21:37:58	INFO	specflux::::+	       30                        17   212620.461322      600.600414      2.764211e-04
+2018-01-17 21:37:58	INFO	specflux::::	##### End Task: specflux             #####
+2018-01-17 21:37:58	INFO	specflux::::+	##########################################
